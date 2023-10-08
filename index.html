@@ -2,8 +2,8 @@
 
 <html>
   <head>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="stylesheet" href="lib/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
   <body>
@@ -13,6 +13,9 @@
         <ul class="nav-mobile__list">
           <li class="nav-mobile__list-item"> 
             <a href="#">ГЛАВНАЯ </a>
+          </li>
+          <li class="nav-mobile__list-item"> 
+            <a href="#section-about-us"> О НАС </a>
           </li>
           <li class="nav-mobile__list-item"> 
             <a href="#section--gallery">
@@ -59,11 +62,11 @@
               <h2> Дорогие друзья, мы открылись!</h2>
               <h3> В нашем заведении вас ожидают: </h3>
               <table class="header__middle-text--tb">
-                <tr><td><span><img src="cr.png"></span></td><td>Свежая выпечка</td></tr>
-                <tr><td><span><img src="ds.png"></span></td><td>Различные десерты</td></tr>
-                <tr><td><span><img src="coffe.png"></span></td><td>Наисвежайший вкусный кофе</td></tr>
-                <tr><td><span><img src="film.png"></span></td><td>Просмотр любимых фильмов и мульфильмов</td></tr>
-                <tr><td><span><img src="knight.png"></span></td><td>Настольные игры</td></tr>
+                <tr><td><span><img src="icons/cr.png"></span></td><td>Свежая выпечка</td></tr>
+                <tr><td><span><img src="icons/ds.png"></span></td><td>Различные десерты</td></tr>
+                <tr><td><span><img src="icons/coffe.png"></span></td><td>Наисвежайший вкусный кофе</td></tr>
+                <tr><td><span><img src="icons/film.png"></span></td><td>Просмотр любимых фильмов и мульфильмов</td></tr>
+                <tr><td><span><img src="icons/knight.png"></span></td><td>Настольные игры</td></tr>
               </table>
             </div>
           </div>
@@ -71,19 +74,74 @@
       </header>
     </div>
     <div class="wrapper__content">
+        <section class="section-about-us" id="section-about-us">
+          <div class="container">
+            <h2 class="section__title">О НАС</h2>
+            <h3 class="section__title" style="color: #000">«Моя кофейня - это моя мечта!»</h3>
+            <div class="section-about-us__wrapper">
+              <div class="section-about-us__wrapper-left"><img src="personal/tatyana.jpg" width="200px"></div>
+              <div class="section-about-us__wrapper-right">
+                <p>
+                  Приветствую Вас на нашем сайте! Меня зовут Татьяна, я создательница кофейни Птичка.
+                </p>
+                <p>  Я человек далекий от бизнеса, но мечтатель и эстет по натуре, хотела создать в нашем городе уютный островок, 
+                  где любому гостю будет сладостно ощутить нашу кофейню,приятно услышать её и конечно вкусно попробовать!✨
+                </p>
+                <p>
+                  Я не могу лично встречать каждого гостя, но у меня отличная команда ребят, которых обучал профессиональный бариста из Москвы. Они искренне болеют своей работой. Благодаря им я всегда в курсе всех ежедневных событий в кофейне . 
+                  Вместе мы  внимательны к нашим гостям, всегда открыты для пожеланий и замечаний.</p>
+              </div>
+            </div>
+            <div class="section-about-us__personal">
+              <img src="personal/pers-1.jpg" width="150px">
+              <img src="personal/pers-2.jpg" width="150px">
+              <img src="personal/pers-3.jpg" width="150px">
+            </div>
+          </div>
+        </section>
+        <section class="section-info">
+          <div class="container">
+            <div class="section-info__wrapper">
+              <br>
+              <details>
+                <summary>Десерты</summary>
+                <p>Наши воздушные Круассаны на настоящем сливочном масле приезжают к нам от 
+                  производителя Франции в глубокой заморозке. Каждое утро мы выпекаем 
+                  к открытию кофейни мини-круассаны, мини улитки с изюмом, 
+                  миндальные и шоколадные круассаны . Приходите оценить нашу выпечку!</p>
+              </details>
+              <br>
+              <details>
+                <summary>Кофе</summary>
+                <p>Мы готовим кофейные напитки на зерне от botanicacoffee. Этот обжарщик specialty кофе 
+                  отлично зарекомендовал себя на рынке. Для вас всегда есть на выбор два варианта зерна, 
+                  на котором бариста приготовит ваш любимый напиток. В белую кофемолку используются зерна 
+                  спокойных сортов, которые идеальны для молочных напитков. В черную кофемолку всегда сыпем 
+                  разнообразные яркие сорта, способные удивить своим вкусом , ароматом и послевкусием.</p>
+                <p>Для альтернативного способа заваривания (воронка hario V60) у нас представлены 
+                  9 разных моносортов фильтр-кофе. 
+                  Вкус вы выбираете сами непосредственно перед приготовлением.</p>
+              </details>
+              <br>
+              <details>
+                <summary>Мероприятия</summary>
+                <p>Каждую среду в нашей кофейне в 19.00 проходит показ мультфильма
+                  А каждое воскресенье в 19.00 мы показываем интересный фильм. Ждём вас! Вход свободный.</p>
+              </details>
+              <br>
+            </div>
+          </div>
+        </section>
         <section class="section-photogallery" id="section--gallery">
           <div class="container"> 
             <h2 class="section__title">ФОТОГАЛЕРЕЯ</h2>
             <div class="section-photogallery__photo">
-                <img class="section-photogallery__photo-toogle-item" src="https://avatars.mds.yandex.net/get-altay/1608507/2a00000187b7959e69257183f2d922a150c6/L_height">
-                <img class="section-photogallery__photo-toogle-item" src="https://sun9-64.userapi.com/impg/YaHZiSZ9gpqx_vtCrwgUE0f0NZ_IHSyCDLjRvw/p5rgr-PQtgE.jpg?size=1366x2160&quality=95&sign=0c008255f52a97300ba7636a3cc19241&type=album">
-                <img class="section-photogallery__photo-toogle-item" src="https://sun9-69.userapi.com/impg/JxZYpG5szmNBzXMPxwzQXMQKX6ALMlBBxrAdxQ/8OrkEpBejj4.jpg?size=1025x1280&quality=95&sign=f54d40847dd2d1d86d28b3c04ec3d38f&type=album">
-                <img class="section-photogallery__photo-toogle-item" src="https://avatars.mds.yandex.net/get-altay/219656/2a00000186e013348893c6010bddc2e755d3/L_height">
-                <img class="section-photogallery__photo-toogle-item" src="https://sun9-2.userapi.com/impg/GXZrPQQdf81IXfWCupqRCXFhb4lvepRzIAFqvw/8YLMA6KS1Js.jpg?size=722x1280&quality=95&sign=7725b335b949fd4b45ff09cb51fbc66d&type=album">
-                <img class="section-photogallery__photo-toogle-item" src="https://avatars.mds.yandex.net/get-altay/941278/2a00000187b7959193beb8eee1c09385f12f/L_height">
-            </div>
-            <div class="section-photogallery__photo-button"> 
-              ПОКАЗАТЬ
+                <img class="section-photogallery__photo-toggle-item" src="https://avatars.mds.yandex.net/get-altay/1608507/2a00000187b7959e69257183f2d922a150c6/L_height">
+                <img class="section-photogallery__photo-toggle-item" src="https://sun9-64.userapi.com/impg/YaHZiSZ9gpqx_vtCrwgUE0f0NZ_IHSyCDLjRvw/p5rgr-PQtgE.jpg?size=1366x2160&quality=95&sign=0c008255f52a97300ba7636a3cc19241&type=album">
+                <img class="section-photogallery__photo-toggle-item" src="https://sun9-69.userapi.com/impg/JxZYpG5szmNBzXMPxwzQXMQKX6ALMlBBxrAdxQ/8OrkEpBejj4.jpg?size=1025x1280&quality=95&sign=f54d40847dd2d1d86d28b3c04ec3d38f&type=album">
+                <img class="section-photogallery__photo-toggle-item" src="https://avatars.mds.yandex.net/get-altay/219656/2a00000186e013348893c6010bddc2e755d3/L_height">
+                <img class="section-photogallery__photo-toggle-item" src="https://sun9-2.userapi.com/impg/GXZrPQQdf81IXfWCupqRCXFhb4lvepRzIAFqvw/8YLMA6KS1Js.jpg?size=722x1280&quality=95&sign=7725b335b949fd4b45ff09cb51fbc66d&type=album">
+                <img class="section-photogallery__photo-toggle-item" src="https://avatars.mds.yandex.net/get-altay/941278/2a00000187b7959193beb8eee1c09385f12f/L_height">
             </div>
          </div>
         </section>
@@ -304,19 +362,19 @@
            <div class="section-contact__wrapper"> 
             <div class="section-contact__text"> 
               <div class="section-contact__part">
-                <span><img src="internet.png"></span><p>
+                <span><img src="icons/internet.png"></span><p>
                   <a href="https://vk.com/cofeinya_ptichka" target="__blank">
                     vk.com/cofeinya_ptichka</p>
                   </a>
               </div>
                 <div class="section-contact__part">
-                <span><img src="phone.png"></span><p>+7 (920) 535-47-89</p>
+                <span><img src="icons/phone.png"></span><p>+7 (920) 249-51-85</p>
                 </div>
               <div class="section-contact__part">
-                <span><img src="clock.png"></span><p>ежедневно, 09:00–21:00</p>
+                <span><img src="icons/clock.png"></span><p>ежедневно, 09:00–21:00</p>
               </div>
                 <div class="section-contact__part">
-                <span><img src="address.png"></span><p>Елец, Советская ул., 89</p>
+                <span><img src="icons/address.png"></span><p>Елец, Советская ул., 89</p>
                 </div>
               </div>
           <div class="section-contact__map">
@@ -337,6 +395,9 @@
         </footer>
       </div>
     </div>
-    <script src="script.js"></script>
+    <div class="bigger__photo"> 
+      <img class="photo">
+    </div>
+    <script src="lib/script.js"></script>
   </body>
 </html>
