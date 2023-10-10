@@ -147,16 +147,21 @@ transform: rotate(-5deg);
 transition: transform 0.5s ease-in;
 }
 
-.wrapper__content {
-  padding-top: 30px;
-}
 
 .section__title {
   color: #655246;
 }
 
+
+.gallery__show-display {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
 .section-photogallery {
+  padding-top: 15px;
   padding-bottom: 30px;
+  background-color: #7a65580f;
 }
 
 .section-photogallery__photo {
@@ -359,6 +364,102 @@ transition: transform 0.5s ease-in;
   box-shadow: 3px 4px 20px 0px rgba(0, 0, 0, 0.5);
 }
 
+.test {
+  min-width: 100%;
+  transform: none;
+}
+
+.section-about-us {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: #7a65580f;
+}
+
+.section-about-us__wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-about-us__wrapper-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.section-about-us__wrapper-right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+}
+
+.section-about-us__personal {
+  padding-top: 35px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.section-about-us__personal img {
+  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+summary {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+  background-color: #ffffff;
+  border: 1px solid whitesmoke;
+  box-shadow: 4px 1px 5px 0px rgba(0, 0, 0, 0.5); ;
+}
+
+details p {
+  padding: 15px;
+}
+
+.bigger__photo {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.bigger__photo img {
+  width: 320px;
+  height: 322px;
+}
+
+.photo {
+  border: 10px solid white;
+  z-index: 100000;
+  background-color: #fff;
+}
+
+.close {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #777;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  line-height: 1;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+  
+}
+
+.close:hover {
+  opacity: 0.4;
+}
+
 @media screen and (max-width: 768px) {
 
   .container {
@@ -439,4 +540,23 @@ transition: transform 0.5s ease-in;
     margin-top: 15px;
     margin-bottom: 15px;
   }
+
+  .section-about-us__wrapper {
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+
+  .section-about-us__wrapper-right {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+
+  .section-about-us__wrapper-left {
+    padding-bottom: 10px;
+  }
+
+  .section-about-us__wrapper-left img {
+    width: 100%;
+  }
+  
 }
