@@ -411,7 +411,8 @@ summary {
   padding-left: 15px;
   background-color: #ffffff;
   border: 1px solid whitesmoke;
-  box-shadow: 4px 1px 5px 0px rgba(0, 0, 0, 0.5); ;
+  box-shadow: 4px 1px 5px 0px rgba(0, 0, 0, 0.5);
+  background-color: #fde4e0;
 }
 
 details p {
@@ -424,11 +425,16 @@ details p {
   bottom: 0px;
   left: 0px;
   right: 0px;
-  width: 100%;
   display: none;
   justify-content: center;
+  align-items: center;
   z-index: 999;
   background-color: rgba(0,0,0,0.5);
+}
+
+.bigger__photo img {
+  width: 320px;
+  height: 322px;
 }
 
 .photo {
@@ -546,21 +552,11 @@ details p {
     padding-bottom: 15px;
   }
 
-  .section-about-us__personal {
-    padding-top: 0;
-    flex-direction: column;
-    align-items: center;
-  }
-
   .section-about-us__wrapper-left {
     padding-bottom: 10px;
   }
 
   .section-about-us__wrapper-left img {
-    width: 100%;
-  }
-
-  .section-about-us__personal img {
     width: 100%;
   }
   
