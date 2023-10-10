@@ -402,6 +402,7 @@ transition: transform 0.5s ease-in;
 }
 
 .section-about-us__personal img {
+  width: 150px;
   box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -459,6 +460,11 @@ details p {
 
 .close:hover {
   opacity: 0.4;
+}
+
+.section-about-us__wrapper-left img {
+  width: 200px;
+  box-shadow: 2px 3px 10px 1px rgba(0, 0, 0, 0.5); 
 }
 
 @media screen and (max-width: 768px) {
@@ -557,7 +563,20 @@ details p {
   }
 
   .section-about-us__wrapper-left img {
-    width: 100%;
+    width: 300px;
   }
+
+  .section-about-us__personal {
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .section-about-us__personal img {
+    width: 100px;
+  }
+
+
   
 }
